@@ -208,15 +208,19 @@
   <style>body { box-sizing: border-box; }</style>
  </head>
  <body class="h-full overflow-auto" style="background: #f5f7fa;">
-  <div id="app" class="w-full h-full">
-   <!-- HOME PAGE -->
-   <div id="page-home" class="page flex-col items-center justify-center min-h-full p-8 relative overflow-hidden"><!-- Animated Background Elements -->
-    <div class="absolute inset-0 overflow-hidden pointer-events-none"><!-- Glowing blob shapes -->
-     <svg class="absolute w-96 h-96 blob-1 opacity-20 -top-40 -left-40" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="80" fill="#3b82f6" />
+  <div id="app" class="w-full h-full"><!-- HOME PAGE -->
+   <div id="page-home" class="page flex-col items-center justify-center min-h-full p-8 relative overflow-hidden">
+    <!-- Animated Background Elements -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+     <!-- Glowing blob shapes -->
+     <svg class="absolute w-96 h-96 blob-1 opacity-20 -top-40 -left-40" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="80" fill="#3b82f6" />
      </svg>
-     <svg class="absolute w-80 h-80 blob-2 opacity-15 -bottom-32 -right-20" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="70" fill="#8b5cf6" />
+     <svg class="absolute w-80 h-80 blob-2 opacity-15 -bottom-32 -right-20" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="70" fill="#8b5cf6" />
      </svg>
-     <svg class="absolute w-72 h-72 blob-3 opacity-20 top-1/3 right-1/4" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="60" fill="#06b6d4" />
+     <svg class="absolute w-72 h-72 blob-3 opacity-20 top-1/3 right-1/4" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="60" fill="#06b6d4" />
      </svg>
      <div class="absolute left-1/4 w-2 h-2 bg-blue-400 rounded-full particle opacity-60" style="animation-delay: 0s"></div>
      <div class="absolute left-1/3 w-1.5 h-1.5 bg-purple-400 rounded-full particle opacity-50" style="animation-delay: 2s"></div>
@@ -224,7 +228,8 @@
      <div class="absolute right-1/3 w-2 h-2 bg-indigo-400 rounded-full particle opacity-45" style="animation-delay: 6s"></div>
      <div class="absolute left-1/2 w-1.5 h-1.5 bg-blue-300 rounded-full particle opacity-35" style="animation-delay: 8s"></div>
      <div class="absolute right-1/2 w-2 h-2 bg-purple-300 rounded-full particle opacity-40" style="animation-delay: 10s"></div>
-     <svg class="absolute inset-0 w-full h-full opacity-5" xmlns="http://www.w3.org/2000/svg"><defs>
+     <svg class="absolute inset-0 w-full h-full opacity-5" xmlns="http://www.w3.org/2000/svg">
+      <defs>
        <pattern id="grid" width="50" height="50" patternunits="userSpaceOnUse">
         <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#0f172a" stroke-width="0.5" />
        </pattern>
@@ -234,7 +239,8 @@
     </div>
     <div class="text-center max-w-4xl mx-auto animate-slide-up relative z-10">
      <div class="mb-12 animate-float">
-      <svg class="w-64 h-64 mx-auto" viewbox="0 0 200 280" fill="none"><defs>
+      <svg class="w-64 h-64 mx-auto" viewbox="0 0 200 280" fill="none">
+       <defs>
         <lineargradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
          <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
          <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
@@ -286,8 +292,7 @@
      </div>
      <h1 id="main-title" class="title-font text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-slate-700 to-slate-900 mb-4">MODERNISASI TEKNOLOGI</h1>
      <p id="subtitle" class="text-xl md:text-2xl text-slate-600 mb-12 font-medium">Jelajahi Era Digital dan Transformasi Teknologi Modern</p><button onclick="navigateTo('menu')" class="cyber-border group relative px-12 py-5 bg-gradient-to-r from-slate-700 to-slate-800 rounded-full text-white text-2xl font-bold uppercase tracking-wider animate-pulse-glow transition-all duration-300 hover:scale-110"> <span class="flex items-center gap-3">
-       <svg class="w-8 h-8" fill="currentColor" viewbox="0 0 20 20">
-        <path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" />
+       <svg class="w-8 h-8" fill="currentColor" viewbox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" />
        </svg> MULAI </span> </button>
      <div class="mt-16 flex justify-center gap-8 opacity-40">
       <div class="w-3 h-3 bg-slate-400 rounded-full animate-pulse"></div>
@@ -298,20 +303,18 @@
    </div><!-- MENU PAGE -->
    <div id="page-menu" class="page flex-col items-center justify-center min-h-full p-8 relative overflow-hidden" style="background: #f8fafc;">
     <div class="absolute inset-0 overflow-hidden pointer-events-none">
-     <svg class="absolute w-96 h-96 blob-1 opacity-15 -top-40 -right-20" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="100" cy="100" r="80" fill="#8b5cf6" />
+     <svg class="absolute w-96 h-96 blob-1 opacity-15 -top-40 -right-20" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="80" fill="#8b5cf6" />
      </svg>
-     <svg class="absolute w-80 h-80 blob-2 opacity-10 -bottom-32 -left-40" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="100" cy="100" r="70" fill="#3b82f6" />
+     <svg class="absolute w-80 h-80 blob-2 opacity-10 -bottom-32 -left-40" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="70" fill="#3b82f6" />
      </svg>
-     <svg class="absolute inset-0 w-full h-full opacity-3" xmlns="http://www.w3.org/2000/svg">
-      <defs>
+     <svg class="absolute inset-0 w-full h-full opacity-3" xmlns="http://www.w3.org/2000/svg"><defs>
        <pattern id="grid-menu" width="50" height="50" patternunits="userSpaceOnUse">
         <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#0f172a" stroke-width="0.5" />
        </pattern>
       </defs><rect width="100%" height="100%" fill="url(#grid-menu)" />
      </svg><!-- AI Robot Characters - Redesigned --> <!-- Robot 1: Cyan Tech Bot (Top Center-Left) -->
-     <svg class="absolute w-52 h-52 top-16 left-12 opacity-75 animate-float" viewbox="0 0 100 120" xmlns="http://www.w3.org/2000/svg"><defs>
+     <svg class="absolute w-52 h-52 top-16 left-12 opacity-75 animate-float" viewbox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+      <defs>
        <lineargradient id="cyanBotGrad" x1="0%" y1="0%" x2="100%" y2="100%">
         <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
         <stop offset="100%" style="stop-color:#0891b2;stop-opacity:1" />
@@ -325,7 +328,8 @@
        </filter>
       </defs> <rect x="28" y="50" width="44" height="52" rx="12" fill="url(#cyanBotGrad)" stroke="#0891b2" stroke-width="2.5" /> <rect x="33" y="56" width="34" height="28" rx="6" fill="rgba(255,255,255,0.15)" stroke="#06b6d4" stroke-width="1.5" stroke-dasharray="4,3" /> <circle cx="42" cy="65" r="3" fill="#06b6d4" opacity="0.6" /><circle cx="50" cy="65" r="3" fill="#06b6d4" opacity="0.6" /><circle cx="58" cy="65" r="3" fill="#06b6d4" opacity="0.6" /> <circle cx="50" cy="32" r="20" fill="url(#cyanBotGrad)" stroke="#0891b2" stroke-width="2.5" /> <circle cx="40" cy="28" r="7" fill="#fef3c7" filter="url(#glowCyan)" /><circle cx="60" cy="28" r="7" fill="#fef3c7" filter="url(#glowCyan)" /> <circle cx="40" cy="29" r="3.5" fill="#1e3a8a" /><circle cx="60" cy="29" r="3.5" fill="#1e3a8a" /> <circle cx="41" cy="27" r="1.5" fill="white" /><circle cx="61" cy="27" r="1.5" fill="white" /> <path d="M 38 38 Q 50 44 62 38" stroke="#fbbf24" stroke-width="2.5" fill="none" stroke-linecap="round" /> <rect x="14" y="68" width="10" height="30" rx="5" fill="#06b6d4" stroke="#0891b2" stroke-width="1.5" /> <rect x="76" y="68" width="10" height="30" rx="5" fill="#06b6d4" stroke="#0891b2" stroke-width="1.5" /> <circle cx="19" cy="102" r="7" fill="#fbbf24" stroke="#f59e0b" stroke-width="1.5" /><circle cx="81" cy="102" r="7" fill="#fbbf24" stroke="#f59e0b" stroke-width="1.5" /> <line x1="42" y1="10" x2="38" y2="-5" stroke="#06b6d4" stroke-width="3" stroke-linecap="round" /> <circle cx="38" cy="-7" r="5" fill="#fbbf24" filter="url(#glowCyan)" /> <line x1="58" y1="10" x2="62" y2="-5" stroke="#06b6d4" stroke-width="3" stroke-linecap="round" /> <circle cx="62" cy="-7" r="5" fill="#fbbf24" filter="url(#glowCyan)" /> <rect x="38" y="104" width="10" height="14" rx="3" fill="#0891b2" /><rect x="52" y="104" width="10" height="14" rx="3" fill="#0891b2" />
      </svg><!-- Robot 2: Pink Creative Bot (Bottom Right) -->
-     <svg class="absolute w-48 h-48 -bottom-6 right-20 opacity-70 animate-pulse" style="animation-delay: 0.4s" viewbox="0 0 100 120" xmlns="http://www.w3.org/2000/svg"><defs>
+     <svg class="absolute w-48 h-48 -bottom-6 right-20 opacity-70 animate-pulse" style="animation-delay: 0.4s" viewbox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+      <defs>
        <lineargradient id="pinkBotGrad" x1="0%" y1="0%" x2="0%" y2="100%">
         <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
         <stop offset="100%" style="stop-color:#be185d;stop-opacity:1" />
@@ -339,7 +343,8 @@
        </filter>
       </defs> <rect x="30" y="52" width="40" height="48" rx="10" fill="url(#pinkBotGrad)" stroke="#be185d" stroke-width="2" /> <rect x="36" y="58" width="28" height="20" rx="5" fill="rgba(255,255,255,0.12)" stroke="#ec4899" stroke-width="1" /> <rect x="25" y="18" width="50" height="38" rx="14" fill="url(#pinkBotGrad)" stroke="#be185d" stroke-width="2" /> <ellipse cx="40" cy="32" rx="6" ry="7" fill="#fff7ed" filter="url(#glowPink)" /><ellipse cx="60" cy="32" rx="6" ry="7" fill="#fff7ed" filter="url(#glowPink)" /> <circle cx="40" cy="34" r="3" fill="#1e3a8a" /><circle cx="60" cy="34" r="3" fill="#1e3a8a" /> <path d="M 42 42 Q 50 46 58 42" stroke="#fff7ed" stroke-width="2" fill="none" stroke-linecap="round" /> <rect x="16" y="70" width="9" height="28" rx="4.5" fill="#ec4899" stroke="#be185d" stroke-width="1" /> <rect x="75" y="70" width="9" height="28" rx="4.5" fill="#ec4899" stroke="#be185d" stroke-width="1" /> <circle cx="21" cy="102" r="6" fill="#fbbf24" stroke="#f59e0b" stroke-width="1" /><circle cx="79" cy="102" r="6" fill="#fbbf24" stroke="#f59e0b" stroke-width="1" /> <line x1="45" y1="16" x2="42" y2="0" stroke="#fff7ed" stroke-width="2.5" stroke-linecap="round" /> <circle cx="42" cy="-2" r="4" fill="#fbbf24" filter="url(#glowPink)" /> <rect x="40" y="102" width="8" height="16" rx="2" fill="#be185d" /><rect x="52" y="102" width="8" height="16" rx="2" fill="#be185d" />
      </svg><!-- Old Robot Code Placeholder -->
-     <svg class="absolute w-48 h-48 -top-20 left-0 opacity-70 animate-bounce" style="animation-delay: 0.2s; display:none;" viewbox="0 0 120 140" xmlns="http://www.w3.org/2000/svg"><defs>
+     <svg class="absolute w-48 h-48 -top-20 left-0 opacity-70 animate-bounce" style="animation-delay: 0.2s; display:none;" viewbox="0 0 120 140" xmlns="http://www.w3.org/2000/svg">
+      <defs>
        <lineargradient id="blueBotGrad" x1="0%" y1="0%" x2="100%" y2="100%">
         <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
         <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
@@ -353,7 +358,8 @@
        </filter>
       </defs> <!-- Body --> <rect x="35" y="60" width="50" height="50" rx="10" fill="url(#blueBotGrad)" stroke="#1e3a8a" stroke-width="2" /> <!-- Head --> <circle cx="60" cy="35" r="22" fill="url(#blueBotGrad)" stroke="#1e3a8a" stroke-width="2" /> <!-- Eyes --> <circle cx="50" cy="30" r="6" fill="#fbbf24" filter="url(#glow1)" /> <circle cx="70" cy="30" r="6" fill="#fbbf24" filter="url(#glow1)" /> <!-- Pupils --> <circle cx="51" cy="31" r="2.5" fill="#1e3a8a" /> <circle cx="71" cy="31" r="2.5" fill="#1e3a8a" /> <!-- Smile --> <path d="M 50 40 Q 60 45 70 40" stroke="#fbbf24" stroke-width="2" fill="none" stroke-linecap="round" /> <!-- Arms --> <rect x="20" y="75" width="12" height="35" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="1" /> <rect x="88" y="75" width="12" height="35" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="1" /> <!-- Hand gloves --> <circle cx="26" cy="115" r="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="1" /> <circle cx="94" cy="115" r="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="1" /> <!-- Antenna --> <line x1="50" y1="10" x2="45" y2="-5" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" /> <circle cx="45" cy="-7" r="4" fill="#fbbf24" /> <line x1="70" y1="10" x2="75" y2="-5" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" /> <circle cx="75" cy="-7" r="4" fill="#fbbf24" /> <!-- Legs --> <rect x="43" y="112" width="8" height="20" rx="4" fill="#1e40af" /> <rect x="69" y="112" width="8" height="20" rx="4" fill="#1e40af" />
      </svg><!-- Robot 2: Purple Tech Bot (Bottom Left) -->
-     <svg class="absolute w-40 h-40 bottom-0 -left-16 opacity-60 animate-pulse" style="animation-delay: 0.6s" viewbox="0 0 100 130" xmlns="http://www.w3.org/2000/svg"><defs>
+     <svg class="absolute w-40 h-40 bottom-0 -left-16 opacity-60 animate-pulse" style="animation-delay: 0.6s" viewbox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
+      <defs>
        <lineargradient id="purpleBotGrad" x1="0%" y1="0%" x2="0%" y2="100%">
         <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
         <stop offset="100%" style="stop-color:#7e22ce;stop-opacity:1" />
@@ -370,10 +376,12 @@
     </div>
     <div class="max-w-5xl w-full mx-auto relative z-10">
      <h2 class="title-font text-4xl md:text-5xl font-bold text-center text-slate-900 mb-12 animate-slide-up">PILIH MENU</h2>
-     <div class="grid grid-cols-1 md:grid-cols-2 gap-6"><button onclick="navigateTo('materi')" class="glass-card group p-8 rounded-2xl transition-all duration-500 hover:scale-105 hover:shadow-lg text-left animate-bounce-in" style="animation-delay: 0.1s;">
+     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <button onclick="navigateTo('materi')" class="glass-card group p-8 rounded-2xl transition-all duration-500 hover:scale-105 hover:shadow-lg text-left animate-bounce-in" style="animation-delay: 0.1s;">
        <div class="flex items-center gap-6">
         <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center group-hover:rotate-12 transition-transform">
-         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
          </svg>
         </div>
         <div>
@@ -383,7 +391,8 @@
        </div></button> <button onclick="navigateTo('video')" class="glass-card group p-8 rounded-2xl transition-all duration-500 hover:scale-105 hover:shadow-lg text-left animate-bounce-in" style="animation-delay: 0.2s;">
        <div class="flex items-center gap-6">
         <div class="w-20 h-20 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center group-hover:rotate-12 transition-transform">
-         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
          </svg>
         </div>
         <div>
@@ -393,7 +402,8 @@
        </div></button> <button onclick="navigateTo('quiz')" class="glass-card group p-8 rounded-2xl transition-all duration-500 hover:scale-105 hover:shadow-lg text-left animate-bounce-in" style="animation-delay: 0.3s;">
        <div class="flex items-center gap-6">
         <div class="w-20 h-20 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-2xl flex items-center justify-center group-hover:rotate-12 transition-transform">
-         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
          </svg>
         </div>
         <div>
@@ -403,7 +413,8 @@
        </div></button> <button onclick="navigateTo('game-menu')" class="glass-card group p-8 rounded-2xl transition-all duration-500 hover:scale-105 hover:shadow-lg text-left animate-bounce-in" style="animation-delay: 0.4s;">
        <div class="flex items-center gap-6">
         <div class="w-20 h-20 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center group-hover:rotate-12 transition-transform">
-         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" /> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+         <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" /> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
          </svg>
         </div>
         <div>
@@ -412,16 +423,28 @@
         </div>
        </div></button>
      </div>
-     <div class="text-center mt-10">
-      <button onclick="navigateTo('home')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
-       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+     <div class="text-center mt-10"><button onclick="navigateTo('home')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
+       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
        </svg> Kembali ke Beranda </button>
      </div>
     </div>
    </div><!-- MATERI PAGE -->
-   <div id="page-materi" class="page flex-col min-h-full p-6 md:p-8">
-    <div class="max-w-4xl w-full mx-auto">
-     <div class="glass-card rounded-3xl p-8 md:p-10">
+   <div id="page-materi" class="page flex-col min-h-full p-6 md:p-8 relative overflow-hidden" style="background: #f8fafc;">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+     <svg class="absolute w-96 h-96 blob-1 opacity-15 -top-40 -right-20" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="80" fill="#8b5cf6" />
+     </svg>
+     <svg class="absolute w-80 h-80 blob-2 opacity-10 -bottom-32 -left-40" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="70" fill="#3b82f6" />
+     </svg>
+     <svg class="absolute inset-0 w-full h-full opacity-3" xmlns="http://www.w3.org/2000/svg"><defs>
+       <pattern id="grid-materi" width="50" height="50" patternunits="userSpaceOnUse">
+        <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#0f172a" stroke-width="0.5" />
+       </pattern>
+      </defs><rect width="100%" height="100%" fill="url(#grid-materi)" />
+     </svg>
+    </div>
+    <div class="max-w-4xl w-full mx-auto relative z-10">
+     <div class="glass-card rounded-3xl p-8 md:p-10 animate-slide-up">
       <h2 class="title-font text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 to-slate-900 mb-8 text-center">MODERNISASI TEKNOLOGI</h2>
       <div class="space-y-6 text-slate-900">
        <div class="glass-card p-6 rounded-xl border-l-4 border-blue-500">
@@ -490,16 +513,28 @@
         </div>
        </div>
       </div>
-      <div class="text-center mt-8">
-       <button onclick="navigateTo('menu')" class="px-8 py-3 bg-slate-700 hover:bg-slate-800 rounded-full text-white font-bold transition-all flex items-center gap-2 mx-auto">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+      <div class="text-center mt-8"><button onclick="navigateTo('menu')" class="px-8 py-3 bg-slate-700 hover:bg-slate-800 rounded-full text-white font-bold transition-all flex items-center gap-2 mx-auto">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg> Kembali ke Menu </button>
       </div>
      </div>
     </div>
    </div><!-- VIDEO PAGE -->
-   <div id="page-video" class="page flex-col items-center justify-center min-h-full p-6 md:p-8">
-    <div class="max-w-4xl w-full mx-auto">
+   <div id="page-video" class="page flex-col items-center justify-center min-h-full p-6 md:p-8 relative overflow-hidden" style="background: #f8fafc;">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+     <svg class="absolute w-96 h-96 blob-1 opacity-15 -top-40 -right-20" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="80" fill="#8b5cf6" />
+     </svg>
+     <svg class="absolute w-80 h-80 blob-2 opacity-10 -bottom-32 -left-40" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="70" fill="#3b82f6" />
+     </svg>
+     <svg class="absolute inset-0 w-full h-full opacity-3" xmlns="http://www.w3.org/2000/svg"><defs>
+       <pattern id="grid-video" width="50" height="50" patternunits="userSpaceOnUse">
+        <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#0f172a" stroke-width="0.5" />
+       </pattern>
+      </defs><rect width="100%" height="100%" fill="url(#grid-video)" />
+     </svg>
+    </div>
+    <div class="max-w-4xl w-full mx-auto relative z-10">
      <div class="glass-card rounded-3xl p-6 md:p-8">
       <h2 class="title-font text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-center">VIDEO PEMBELAJARAN</h2>
       <div class="relative rounded-2xl overflow-hidden bg-gradient-to-br from-slate-900 to-slate-800 w-full mb-6 aspect-video flex items-center justify-center group cursor-pointer hover:from-slate-800 hover:to-slate-700 transition-all" onclick="openVideoModal()">
@@ -516,20 +551,33 @@
        <h3 class="text-lg font-bold text-slate-900 mb-2">📺 Tentang Video Ini</h3>
        <p class="text-slate-700">Video ini menjelaskan tentang perkembangan teknologi modern dan bagaimana teknologi mengubah kehidupan manusia di era digital. Tonton dengan seksama untuk memahami materi lebih baik!</p>
       </div>
-      <div class="text-center">
-       <button onclick="navigateTo('menu')" class="px-8 py-3 bg-slate-700 hover:bg-slate-800 rounded-full text-white font-bold transition-all flex items-center gap-2 mx-auto">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+      <div class="text-center"><button onclick="navigateTo('menu')" class="px-8 py-3 bg-slate-700 hover:bg-slate-800 rounded-full text-white font-bold transition-all flex items-center gap-2 mx-auto">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg> Kembali ke Menu </button>
       </div>
      </div>
     </div>
    </div><!-- QUIZ PAGE -->
-   <div id="page-quiz" class="page flex-col min-h-full p-6 md:p-8">
-    <div class="max-w-3xl w-full mx-auto">
+   <div id="page-quiz" class="page flex-col min-h-full p-6 md:p-8 relative overflow-hidden" style="background: #f8fafc;">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+     <svg class="absolute w-96 h-96 blob-1 opacity-15 -top-40 -right-20" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="80" fill="#8b5cf6" />
+     </svg>
+     <svg class="absolute w-80 h-80 blob-2 opacity-10 -bottom-32 -left-40" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="70" fill="#3b82f6" />
+     </svg>
+     <svg class="absolute inset-0 w-full h-full opacity-3" xmlns="http://www.w3.org/2000/svg"><defs>
+       <pattern id="grid-quiz" width="50" height="50" patternunits="userSpaceOnUse">
+        <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#0f172a" stroke-width="0.5" />
+       </pattern>
+      </defs><rect width="100%" height="100%" fill="url(#grid-quiz)" />
+     </svg>
+    </div>
+    <div class="max-w-3xl w-full mx-auto relative z-10">
      <div class="glass-card rounded-3xl p-6 md:p-8">
       <h2 class="title-font text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-center">KUIS INTERAKTIF</h2>
       <div class="mb-6">
-       <div class="flex justify-between text-slate-900 mb-2"><span id="quiz-progress">Soal 1 dari 5</span> <span id="quiz-score">Skor: 0</span>
+       <div class="flex justify-between text-slate-900 mb-2">
+        <span id="quiz-progress">Soal 1 dari 5</span> <span id="quiz-score">Skor: 0</span>
        </div>
        <div class="w-full bg-slate-200 rounded-full h-3">
         <div id="quiz-progress-bar" class="bg-gradient-to-r from-blue-500 to-blue-600 h-3 rounded-full transition-all duration-500" style="width: 20%"></div>
@@ -545,23 +593,33 @@
        </div>
        <h3 class="text-2xl font-bold text-slate-900 mb-2">Kuis Selesai!</h3>
        <p id="result-text" class="text-xl text-emerald-600 mb-6"></p>
-       <div class="flex gap-4 justify-center">
-        <button onclick="restartQuiz()" class="px-6 py-3 bg-green-600 hover:bg-green-500 rounded-full text-white font-bold transition-all">🔄 Ulangi Kuis</button> <button onclick="saveQuizScore()" class="px-6 py-3 bg-purple-600 hover:bg-purple-500 rounded-full text-white font-bold transition-all">💾 Simpan Skor</button>
+       <div class="flex gap-4 justify-center"><button onclick="restartQuiz()" class="px-6 py-3 bg-green-600 hover:bg-green-500 rounded-full text-white font-bold transition-all">🔄 Ulangi Kuis</button> <button onclick="saveQuizScore()" class="px-6 py-3 bg-purple-600 hover:bg-purple-500 rounded-full text-white font-bold transition-all">💾 Simpan Skor</button>
        </div>
       </div>
-      <div class="text-center mt-6">
-       <button onclick="navigateTo('menu')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+      <div class="text-center mt-6"><button onclick="navigateTo('menu')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg> Kembali ke Menu </button>
       </div>
      </div>
     </div>
    </div><!-- GAME MENU PAGE -->
-   <div id="page-game-menu" class="page flex-col items-center justify-center min-h-full p-8">
-    <div class="max-w-5xl w-full mx-auto">
+   <div id="page-game-menu" class="page flex-col items-center justify-center min-h-full p-8 relative overflow-hidden" style="background: #f8fafc;">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+     <svg class="absolute w-96 h-96 blob-1 opacity-15 -top-40 -right-20" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="80" fill="#8b5cf6" />
+     </svg>
+     <svg class="absolute w-80 h-80 blob-2 opacity-10 -bottom-32 -left-40" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="70" fill="#3b82f6" />
+     </svg>
+     <svg class="absolute inset-0 w-full h-full opacity-3" xmlns="http://www.w3.org/2000/svg"><defs>
+       <pattern id="grid-game" width="50" height="50" patternunits="userSpaceOnUse">
+        <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#0f172a" stroke-width="0.5" />
+       </pattern>
+      </defs><rect width="100%" height="100%" fill="url(#grid-game)" />
+     </svg>
+    </div>
+    <div class="max-w-5xl w-full mx-auto relative z-10">
      <h2 class="title-font text-4xl md:text-5xl font-bold text-center text-slate-900 mb-12">PILIH GAME</h2>
-     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      <button onclick="startMemoryGame()" class="glass-card group p-8 rounded-2xl transition-all duration-500 hover:scale-105 hover:shadow-lg text-left animate-bounce-in" style="animation-delay: 0.1s;">
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"><button onclick="startMemoryGame()" class="glass-card group p-8 rounded-2xl transition-all duration-500 hover:scale-105 hover:shadow-lg text-left animate-bounce-in" style="animation-delay: 0.1s;">
        <div class="text-center">
         <div class="text-6xl mb-4">
          🧠
@@ -623,9 +681,9 @@
         </div>
        </div></a>
      </div>
-     <div class="text-center mt-10">
-      <button onclick="navigateTo('menu')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
-       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+     <div class="text-center mt-10"><button onclick="navigateTo('menu')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
+       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
        </svg> Kembali ke Menu </button>
      </div>
     </div>
@@ -668,13 +726,12 @@
        </div>
        <h3 class="text-2xl font-bold text-slate-900 mb-2">Selamat!</h3>
        <p id="memory-result-text" class="text-lg text-blue-600 mb-4"></p>
-       <div class="flex gap-4 justify-center">
-        <button onclick="startMemoryGame()" class="px-6 py-3 bg-blue-600 hover:bg-blue-500 rounded-full text-white font-bold transition-all">🔄 Main Lagi</button> <button onclick="navigateTo('game-menu')" class="px-6 py-3 bg-slate-600 hover:bg-slate-500 rounded-full text-white font-bold transition-all">◀ Kembali</button>
+       <div class="flex gap-4 justify-center"><button onclick="startMemoryGame()" class="px-6 py-3 bg-blue-600 hover:bg-blue-500 rounded-full text-white font-bold transition-all">🔄 Main Lagi</button> <button onclick="navigateTo('game-menu')" class="px-6 py-3 bg-slate-600 hover:bg-slate-500 rounded-full text-white font-bold transition-all">◀ Kembali</button>
        </div>
       </div>
-      <div id="memory-playing" class="text-center">
-       <button onclick="stopMemoryTimer(); navigateTo('game-menu')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+      <div id="memory-playing" class="text-center"><button onclick="stopMemoryTimer(); navigateTo('game-menu')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg> Kembali ke Game </button>
       </div>
      </div>
@@ -713,13 +770,12 @@
        </div>
        <h3 class="text-2xl font-bold text-slate-900 mb-2">Game Selesai!</h3>
        <p id="speed-result-text" class="text-lg text-amber-600 mb-4"></p>
-       <div class="flex gap-4 justify-center">
-        <button onclick="startSpeedQuiz()" class="px-6 py-3 bg-amber-600 hover:bg-amber-500 rounded-full text-white font-bold transition-all">🔄 Coba Lagi</button> <button onclick="navigateTo('game-menu')" class="px-6 py-3 bg-slate-600 hover:bg-slate-500 rounded-full text-white font-bold transition-all">◀ Kembali</button>
+       <div class="flex gap-4 justify-center"><button onclick="startSpeedQuiz()" class="px-6 py-3 bg-amber-600 hover:bg-amber-500 rounded-full text-white font-bold transition-all">🔄 Coba Lagi</button> <button onclick="navigateTo('game-menu')" class="px-6 py-3 bg-slate-600 hover:bg-slate-500 rounded-full text-white font-bold transition-all">◀ Kembali</button>
        </div>
       </div>
-      <div id="speed-playing" class="text-center">
-       <button onclick="navigateTo('game-menu')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+      <div id="speed-playing" class="text-center"><button onclick="navigateTo('game-menu')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg> Kembali ke Game </button>
       </div>
      </div>
@@ -752,8 +808,7 @@
        <p class="text-slate-600 mb-3">Susun menjadi:</p>
        <div id="scramble-hint" class="text-2xl font-bold text-slate-900 bg-slate-100 p-4 rounded-xl mb-4"></div>
        <div id="scramble-scrambled" class="flex flex-wrap justify-center gap-2 mb-6"></div><input type="text" id="scramble-answer" placeholder="Ketik jawabanmu..." class="w-full px-4 py-3 border-2 border-slate-300 rounded-xl text-lg mb-4">
-       <div class="flex gap-3 justify-center">
-        <button onclick="submitScrambleAnswer()" class="px-6 py-3 bg-purple-600 hover:bg-purple-500 rounded-full text-white font-bold transition-all">✓ Kirim</button> <button onclick="skipScrambleWord()" class="px-6 py-3 bg-slate-400 hover:bg-slate-300 rounded-full text-slate-900 font-bold transition-all">⊘ Lewati</button>
+       <div class="flex gap-3 justify-center"><button onclick="submitScrambleAnswer()" class="px-6 py-3 bg-purple-600 hover:bg-purple-500 rounded-full text-white font-bold transition-all">✓ Kirim</button> <button onclick="skipScrambleWord()" class="px-6 py-3 bg-slate-400 hover:bg-slate-300 rounded-full text-slate-900 font-bold transition-all">⊘ Lewati</button>
        </div>
       </div>
       <div id="scramble-result" class="hidden text-center py-6">
@@ -762,13 +817,12 @@
        </div>
        <h3 class="text-2xl font-bold text-slate-900 mb-2">Game Selesai!</h3>
        <p id="scramble-result-text" class="text-lg text-purple-600 mb-4"></p>
-       <div class="flex gap-4 justify-center">
-        <button onclick="startWordScramble()" class="px-6 py-3 bg-purple-600 hover:bg-purple-500 rounded-full text-white font-bold transition-all">🔄 Coba Lagi</button> <button onclick="navigateTo('game-menu')" class="px-6 py-3 bg-slate-600 hover:bg-slate-500 rounded-full text-white font-bold transition-all">◀ Kembali</button>
+       <div class="flex gap-4 justify-center"><button onclick="startWordScramble()" class="px-6 py-3 bg-purple-600 hover:bg-purple-500 rounded-full text-white font-bold transition-all">🔄 Coba Lagi</button> <button onclick="navigateTo('game-menu')" class="px-6 py-3 bg-slate-600 hover:bg-slate-500 rounded-full text-white font-bold transition-all">◀ Kembali</button>
        </div>
       </div>
-      <div id="scramble-playing" class="text-center">
-       <button onclick="navigateTo('game-menu')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+      <div id="scramble-playing" class="text-center"><button onclick="navigateTo('game-menu')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg> Kembali ke Game </button>
       </div>
      </div>
@@ -806,8 +860,7 @@
         <p class="text-center text-slate-600 mb-3 font-medium">✓ Tempatkan di sini (terbaru → terlama):</p>
         <div id="timeline-drop-area" class="space-y-2"></div>
        </div>
-       <div class="text-center">
-        <button onclick="submitTimelineAnswer()" class="px-8 py-3 bg-cyan-600 hover:bg-cyan-500 rounded-full text-white font-bold transition-all">✓ Cek Jawaban</button>
+       <div class="text-center"><button onclick="submitTimelineAnswer()" class="px-8 py-3 bg-cyan-600 hover:bg-cyan-500 rounded-full text-white font-bold transition-all">✓ Cek Jawaban</button>
        </div>
       </div>
       <div id="timeline-result" class="hidden text-center py-6">
@@ -816,13 +869,12 @@
        </div>
        <h3 class="text-2xl font-bold text-slate-900 mb-2">Level Selesai!</h3>
        <p id="timeline-result-text" class="text-lg text-cyan-600 mb-4"></p>
-       <div class="flex gap-4 justify-center">
-        <button onclick="startTimelineGame()" class="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 rounded-full text-white font-bold transition-all">🔄 Coba Lagi</button> <button onclick="navigateTo('game-menu')" class="px-6 py-3 bg-slate-600 hover:bg-slate-500 rounded-full text-white font-bold transition-all">◀ Kembali</button>
+       <div class="flex gap-4 justify-center"><button onclick="startTimelineGame()" class="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 rounded-full text-white font-bold transition-all">🔄 Coba Lagi</button> <button onclick="navigateTo('game-menu')" class="px-6 py-3 bg-slate-600 hover:bg-slate-500 rounded-full text-white font-bold transition-all">◀ Kembali</button>
        </div>
       </div>
-      <div id="timeline-playing-btn" class="text-center mt-6">
-       <button onclick="navigateTo('game-menu')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+      <div id="timeline-playing-btn" class="text-center mt-6"><button onclick="navigateTo('game-menu')" class="px-8 py-3 bg-slate-200 hover:bg-slate-300 rounded-full text-slate-900 font-semibold transition-all flex items-center gap-2 mx-auto">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg> Kembali ke Game </button>
       </div>
      </div>
@@ -830,7 +882,8 @@
    </div>
   </div><!-- Video Modal -->
   <div id="video-modal" class="fixed inset-0 bg-black bg-opacity-80 hidden z-50 flex items-center justify-center p-4" onclick="if(event.target.id === 'video-modal') closeVideoModal()">
-   <div class="relative w-full max-w-5xl aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl animate-bounce-in"><button onclick="closeVideoModal()" class="absolute top-4 right-4 bg-red-600 hover:bg-red-700 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl z-10 transition-all">✕</button> <iframe id="video-player" class="w-full h-full" src="" title="Video Modernisasi Teknologi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <div class="relative w-full max-w-5xl aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl animate-bounce-in">
+    <button onclick="closeVideoModal()" class="absolute top-4 right-4 bg-red-600 hover:bg-red-700 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl z-10 transition-all">✕</button> <iframe id="video-player" class="w-full h-full" src="" title="Video Modernisasi Teknologi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
   </div>
   <script>
@@ -1476,5 +1529,5 @@
       navigateTo('home');
     })();
   </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d941f201424ecd5',t:'MTc3Mjk5NjgzMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d9558eb44cca2c5',t:'MTc3MzAwOTY4Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
